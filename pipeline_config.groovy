@@ -7,7 +7,7 @@ allow_scm_jenkinsfile = false
   library sources configured.
 */
 libraries {
-  unit_test
+  example_library
   sdp {
     images {
       registry = "http://localhost:5000"        // registry url
